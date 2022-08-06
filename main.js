@@ -1,4 +1,5 @@
 const { app, BrowserWindow, ipcMain, Notification } = require("electron");
+const { getRandomEmoji } = require('./utilities/emoji.js');
 
 const fs = require("fs");
 const path = require("path");
@@ -21,9 +22,7 @@ const handleDelete = (dir) => {
       }
     }
 
-    console.log({deletedFilesCount});
-
-    showNotification("Success", `${deletedFilesCount} were deleted`);
+    showNotification(`${getRandomEmoji()} Success`, `${deletedFilesCount} .asd files were deleted`);
   });
 };
 
@@ -46,7 +45,6 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow();
   ipcMain.on("file-drop", (_event, path) => {
-    console.log(path);
     handleDelete(path);
   });
 });
