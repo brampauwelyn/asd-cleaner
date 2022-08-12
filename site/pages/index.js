@@ -12,7 +12,7 @@ const HomePage = () => {
         width={600}
         height={400}
       />
-      <a href="/brampauwelyn/asd-cleaner/releases/1.0.0/download/asd-cleaner-1.0.0.dmg" class="button-link" style={{background: "#ededed", color: "#40404a", borderRadius: "2rem", fontSize: "1rem", textDecoration: "none", padding: "1rem", boxShadow: "0 2px 4px 0 rgba(0, 0, 0, 0.24)" }}>
+      <a href="https://github.com/brampauwelyn/asd-cleaner/releases/download/1.0.0/asd-cleaner-1.0.0.dmg" target="_blank" class="button-link" style={{background: "#ededed", color: "#40404a", borderRadius: "2rem", fontSize: "1rem", textDecoration: "none", padding: "1rem", boxShadow: "0 2px 4px 0 rgba(0, 0, 0, 0.24)" }}>
         Download .dmg
       </a>
       <style global jsx>{`
