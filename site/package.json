@@ -1,0 +1,16 @@
+{
+  "name": "asd-cleaner-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

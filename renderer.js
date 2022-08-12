@@ -8,7 +8,7 @@ const dragboxIconPathEl = document.querySelector('.dragbox-icon-path');
 const resetDragboxStyling = () => {
   dragbox.classList.remove('active');
   dragboxTextEl.textContent = DRAG_AND_DROP_TEXT;
-  dragboxIconPathEl.setAttribute('fill', '#fff');
+  dragboxIconPathEl.setAttribute('fill', '#9C8FFF');
 }
 
 
